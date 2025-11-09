@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belezas Naturais - Tema Esmeralda</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a4d2e 0%, #2d7a4f 50%, #50c878 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            width: 100%;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .logo-section {
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(135deg, #0f5132, #198754);
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 72px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(15, 81, 50, 0.4);
+        }
+
+        h1 {
+            color: #1a4d2e;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            color: #2d7a4f;
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .nature-icon {
+            font-size: 4em;
+            margin: 30px 0;
+        }
+
+        .buttons-container {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin: 50px 0;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 18px 45px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+
+        .btn-inicio {
+            background: linear-gradient(135deg, #50c878, #2d7a4f);
+            color: white;
+        }
+
+        .btn-inicio:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(80, 200, 120, 0.4);
+            background: linear-gradient(135deg, #5dd98a, #3a9861);
+        }
+
+        .btn-continuacao {
+            background: linear-gradient(135deg, #1a4d2e, #0f5132);
+            color: white;
+        }
+
+        .btn-continuacao:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(26, 77, 46, 0.4);
+            background: linear-gradient(135deg, #246139, #145c3e);
+        }
+
+        .authors {
+            margin-top: 50px;
+            padding: 30px;
+            background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+            border-radius: 20px;
+            border-left: 5px solid #2d7a4f;
+        }
+
+        .authors h3 {
+            color: #1a4d2e;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .authors-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .author {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 15px;
+            color: #2d7a4f;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .author:hover {
+            transform: scale(1.05);
+        }
+
+        .leaf-decoration {
+            color: #50c878;
+            font-size: 2em;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-section">
+            <div class="logo">IF</div>
+        </div>
+
+        <h1>🌿 Belezas Naturais 🌿</h1>
+        <p class="subtitle">Explorando a magnificência da Natureza</p>
+
+        <div class="nature-icon">🌲 🏔️ 🌊</div>
+
+        <div class="buttons-container">
+            <a href="https://vini996.github.io/Vale360Cachoeiras/" target="_blank" class="btn btn-inicio">🌱 Início do Trabalho</a>
+        </div>
+
+        <div class="authors">
+            <h3>✨ Autores do Projeto ✨</h3>
+            <div class="authors-list">
+                <div class="author">José Vinícius</div>
+                <span class="leaf-decoration">🍃</span>
+                <div class="author">Rafael</div>
+                <span class="leaf-decoration">🍃</span>
+                <div class="author">Thaise</div>
+                <span class="leaf-decoration">🍃</span>
+                <div class="author">Wanderson</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
